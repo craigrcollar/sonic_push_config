@@ -35,24 +35,24 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def extract_hostname_from_filename(filename):
-    """Extract hostname from configuration filename - specifically looking for esw + up to 8 digits"""
+    """Extract hostname from configuration filename - specifically looking for sw + up to 8 digits"""
     # Remove file extension and path
     basename = Path(filename).stem
     
-    # Pattern to match "esw" followed by up to 8 digits
-    esw_pattern = r'(esw\d{1,8})'
+    # Pattern to match "sw" followed by up to 8 digits
+    sw_pattern = r'((.)sw\d{1,8})'
     
-    # Search for the esw pattern (case-insensitive)
-    match = re.search(esw_pattern, basename, re.IGNORECASE)
+    # Search for the sw pattern (case-insensitive)
+    match = re.search(sw_pattern, basename, re.IGNORECASE)
     
     if match:
         hostname = match.group(1).lower()  # Convert to lowercase for consistency
-        logger.info(f"Found ESW switch name: {hostname}")
+        logger.info(f"Found SW switch name: {hostname}")
         return hostname
     
-    # If no esw pattern found, log warning and return basename
-    logger.warning(f"No ESW switch name pattern found in filename '{filename}'")
-    logger.warning("Expected pattern: esw + up to 8 digits (e.g., esw123, esw12345678)")
+    # If no sw pattern found, log warning and return basename
+    logger.warning(f"No SW switch name pattern found in filename '{filename}'")
+    logger.warning("Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)")
     return basename
 
 class SONiCConfigApplier:

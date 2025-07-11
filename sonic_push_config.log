@@ -1,0 +1,29 @@
+2025-07-11 12:21:42,947 - INFO - Found 2 configuration files in directory: ../test/
+2025-07-11 12:21:42,947 - INFO - Found SW switch name: sw020075
+2025-07-11 12:21:42,947 - INFO - Found SW switch name: sw020076
+2025-07-11 12:21:42,947 - INFO - Found configuration files for 2 switches:
+2025-07-11 12:21:42,947 - INFO -   sw020075: 1 file(s)
+2025-07-11 12:21:42,947 - INFO -     - ../test/esw020075.txt
+2025-07-11 12:21:42,947 - INFO -   sw020076: 1 file(s)
+2025-07-11 12:21:42,947 - INFO -     - ../test/esw020076.txt
+2025-07-11 12:25:39,411 - INFO - Found 2 configuration files in directory: ../test/
+2025-07-11 12:29:18,498 - INFO - Found 2 configuration files in directory: ../test/
+2025-07-11 12:29:40,981 - INFO - Found 2 configuration files in directory: ../test/
+2025-07-11 12:29:40,981 - INFO - Found SW switch name: esw020075
+2025-07-11 12:29:40,981 - INFO - Found SW switch name: esw020076
+2025-07-11 12:29:40,981 - INFO - Found configuration files for 2 switches:
+2025-07-11 12:29:40,981 - INFO -   esw020075: 1 file(s)
+2025-07-11 12:29:40,981 - INFO -     - ../test/esw020075.txt
+2025-07-11 12:29:40,981 - INFO -   esw020076: 1 file(s)
+2025-07-11 12:29:40,981 - INFO -     - ../test/esw020076.txt
+2025-07-11 12:30:16,437 - INFO - Found 3 configuration files in directory: ../test/
+2025-07-11 12:30:16,437 - INFO - Found SW switch name: esw020075
+2025-07-11 12:30:16,437 - INFO - Found SW switch name: esw020076
+2025-07-11 12:30:16,437 - INFO - Found SW switch name: ssw020001
+2025-07-11 12:30:16,437 - INFO - Found configuration files for 3 switches:
+2025-07-11 12:30:16,437 - INFO -   esw020075: 1 file(s)
+2025-07-11 12:30:16,437 - INFO -     - ../test/esw020075.txt
+2025-07-11 12:30:16,437 - INFO -   esw020076: 1 file(s)
+2025-07-11 12:30:16,437 - INFO -     - ../test/esw020076.txt
+2025-07-11 12:30:16,437 - INFO -   ssw020001: 1 file(s)
+2025-07-11 12:30:16,437 - INFO -     - ../test/ssw020001.txt
