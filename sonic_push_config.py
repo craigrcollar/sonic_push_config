@@ -40,7 +40,7 @@ def extract_hostname_from_filename(filename):
     basename = Path(filename).stem
     
     # Pattern to match "sw" followed by up to 8 digits
-    sw_pattern = r'((.)sw\d{1,8})'
+    sw_pattern = r'((..)sw\d{1,8})'
     
     # Search for the sw pattern (case-insensitive)
     match = re.search(sw_pattern, basename, re.IGNORECASE)

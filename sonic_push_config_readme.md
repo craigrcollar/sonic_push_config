@@ -32,9 +32,9 @@ pip install paramiko
 
 1. Clone or download the script:
 ```bash
-wget https://your-repo/sonic_push_config.py
+wget https://github.com/craigrcollar/sonic_push_config/blob/main/sonic_push_config.py
 # or
-curl -O https://your-repo/sonic_push_config.py
+curl -O https://github.com/craigrcollar/sonic_push_config/blob/main/sonic_push_config.py
 ```
 
 2. Install required dependencies:
@@ -89,9 +89,9 @@ The script automatically extracts switch hostnames from configuration filenames 
 
 ### Valid Examples:
 - `esw123.txt` → hostname: `esw123`
-- `ESW12345678.conf` → hostname: `esw12345678`
+- `BSW12345678.conf` → hostname: `bsw12345678`
 - `sw1.cfg` → hostname: `sw1`
-- `backup_esw456_config.txt` → hostname: `esw456`
+- `backup_lsw456_config.txt` → hostname: `lsw456`
 
 ### Supported File Extensions:
 - `.txt`

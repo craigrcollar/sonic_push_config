@@ -27,3 +27,36 @@
 2025-07-11 12:30:16,437 - INFO -     - ../test/esw020076.txt
 2025-07-11 12:30:16,437 - INFO -   ssw020001: 1 file(s)
 2025-07-11 12:30:16,437 - INFO -     - ../test/ssw020001.txt
+2025-07-11 12:47:55,119 - INFO - Found 4 configuration files in directory: ../test/
+2025-07-11 12:47:55,119 - INFO - Found SW switch name: esw020075
+2025-07-11 12:47:55,119 - INFO - Found SW switch name: esw020076
+2025-07-11 12:47:55,119 - WARNING - No SW switch name pattern found in filename '../test/obsw.txt'
+2025-07-11 12:47:55,119 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-11 12:47:55,119 - INFO - Found SW switch name: ssw020001
+2025-07-11 12:47:55,119 - INFO - Found configuration files for 4 switches:
+2025-07-11 12:47:55,119 - INFO -   esw020075: 1 file(s)
+2025-07-11 12:47:55,119 - INFO -     - ../test/esw020075.txt
+2025-07-11 12:47:55,120 - INFO -   esw020076: 1 file(s)
+2025-07-11 12:47:55,120 - INFO -     - ../test/esw020076.txt
+2025-07-11 12:47:55,120 - INFO -   obsw: 1 file(s)
+2025-07-11 12:47:55,120 - INFO -     - ../test/obsw.txt
+2025-07-11 12:47:55,120 - INFO -   ssw020001: 1 file(s)
+2025-07-11 12:47:55,120 - INFO -     - ../test/ssw020001.txt
+2025-07-11 12:49:05,901 - INFO - Found 4 configuration files in directory: ../test/
+2025-07-11 12:49:05,902 - WARNING - No SW switch name pattern found in filename '../test/esw020075.txt'
+2025-07-11 12:49:05,902 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-11 12:49:05,902 - WARNING - No SW switch name pattern found in filename '../test/esw020076.txt'
+2025-07-11 12:49:05,902 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-11 12:49:05,902 - WARNING - No SW switch name pattern found in filename '../test/obsw.txt'
+2025-07-11 12:49:05,902 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-11 12:49:05,902 - WARNING - No SW switch name pattern found in filename '../test/ssw020001.txt'
+2025-07-11 12:49:05,902 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-11 12:49:05,902 - INFO - Found configuration files for 4 switches:
+2025-07-11 12:49:05,902 - INFO -   esw020075: 1 file(s)
+2025-07-11 12:49:05,902 - INFO -     - ../test/esw020075.txt
+2025-07-11 12:49:05,902 - INFO -   esw020076: 1 file(s)
+2025-07-11 12:49:05,902 - INFO -     - ../test/esw020076.txt
+2025-07-11 12:49:05,902 - INFO -   obsw: 1 file(s)
+2025-07-11 12:49:05,902 - INFO -     - ../test/obsw.txt
+2025-07-11 12:49:05,902 - INFO -   ssw020001: 1 file(s)
+2025-07-11 12:49:05,902 - INFO -     - ../test/ssw020001.txt
