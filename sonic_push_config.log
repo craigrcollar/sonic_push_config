@@ -60,3 +60,1021 @@
 2025-07-11 12:49:05,902 - INFO -     - ../test/obsw.txt
 2025-07-11 12:49:05,902 - INFO -   ssw020001: 1 file(s)
 2025-07-11 12:49:05,902 - INFO -     - ../test/ssw020001.txt
+2025-07-14 13:10:26,428 - INFO - Found 8 configuration files in directory: ../acl_generator/output/1870_sea1
+2025-07-14 13:10:26,429 - INFO - Found SW switch name: _esw020033
+2025-07-14 13:10:26,429 - INFO - Found SW switch name: _esw020034
+2025-07-14 13:10:26,429 - INFO - Found SW switch name: _esw020035
+2025-07-14 13:10:26,429 - INFO - Found SW switch name: _esw020036
+2025-07-14 13:10:26,429 - INFO - Found SW switch name: _esw020045
+2025-07-14 13:10:26,429 - INFO - Found SW switch name: _esw020046
+2025-07-14 13:10:26,429 - INFO - Found SW switch name: _esw020047
+2025-07-14 13:10:26,429 - INFO - Found SW switch name: _esw020048
+2025-07-14 13:10:26,429 - INFO - Found configuration files for 8 switches:
+2025-07-14 13:10:26,429 - INFO -   _esw020033: 1 file(s)
+2025-07-14 13:10:26,429 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:10:26,429 - INFO -   _esw020034: 1 file(s)
+2025-07-14 13:10:26,429 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:10:26,429 - INFO -   _esw020035: 1 file(s)
+2025-07-14 13:10:26,429 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:10:26,429 - INFO -   _esw020036: 1 file(s)
+2025-07-14 13:10:26,429 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:10:26,429 - INFO -   _esw020045: 1 file(s)
+2025-07-14 13:10:26,429 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:10:26,429 - INFO -   _esw020046: 1 file(s)
+2025-07-14 13:10:26,429 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:10:26,429 - INFO -   _esw020047: 1 file(s)
+2025-07-14 13:10:26,429 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:10:26,429 - INFO -   _esw020048: 1 file(s)
+2025-07-14 13:10:26,429 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:11:01,061 - INFO - 
+============================================================
+2025-07-14 13:11:01,061 - INFO - Processing switch: _esw020033
+2025-07-14 13:11:01,062 - INFO - Configuration files: 1
+2025-07-14 13:11:01,062 - INFO - ============================================================
+2025-07-14 13:11:01,062 - INFO - Connecting to _esw020033:22
+2025-07-14 13:11:01,207 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:11:01,207 - ERROR - Failed to connect to switch _esw020033
+2025-07-14 13:11:01,207 - INFO - Disconnected from switch
+2025-07-14 13:11:01,207 - INFO - 
+============================================================
+2025-07-14 13:11:01,208 - INFO - Processing switch: _esw020034
+2025-07-14 13:11:01,208 - INFO - Configuration files: 1
+2025-07-14 13:11:01,208 - INFO - ============================================================
+2025-07-14 13:11:01,208 - INFO - Connecting to _esw020034:22
+2025-07-14 13:11:01,347 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:11:01,347 - ERROR - Failed to connect to switch _esw020034
+2025-07-14 13:11:01,347 - INFO - Disconnected from switch
+2025-07-14 13:11:01,347 - INFO - 
+============================================================
+2025-07-14 13:11:01,347 - INFO - Processing switch: _esw020035
+2025-07-14 13:11:01,347 - INFO - Configuration files: 1
+2025-07-14 13:11:01,347 - INFO - ============================================================
+2025-07-14 13:11:01,347 - INFO - Connecting to _esw020035:22
+2025-07-14 13:11:01,489 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:11:01,489 - ERROR - Failed to connect to switch _esw020035
+2025-07-14 13:11:01,490 - INFO - Disconnected from switch
+2025-07-14 13:11:01,490 - INFO - 
+============================================================
+2025-07-14 13:11:01,490 - INFO - Processing switch: _esw020036
+2025-07-14 13:11:01,490 - INFO - Configuration files: 1
+2025-07-14 13:11:01,490 - INFO - ============================================================
+2025-07-14 13:11:01,490 - INFO - Connecting to _esw020036:22
+2025-07-14 13:11:01,629 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:11:01,629 - ERROR - Failed to connect to switch _esw020036
+2025-07-14 13:11:01,629 - INFO - Disconnected from switch
+2025-07-14 13:11:01,629 - INFO - 
+============================================================
+2025-07-14 13:11:01,629 - INFO - Processing switch: _esw020045
+2025-07-14 13:11:01,629 - INFO - Configuration files: 1
+2025-07-14 13:11:01,630 - INFO - ============================================================
+2025-07-14 13:11:01,630 - INFO - Connecting to _esw020045:22
+2025-07-14 13:11:01,777 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:11:01,777 - ERROR - Failed to connect to switch _esw020045
+2025-07-14 13:11:01,777 - INFO - Disconnected from switch
+2025-07-14 13:11:01,777 - INFO - 
+============================================================
+2025-07-14 13:11:01,777 - INFO - Processing switch: _esw020046
+2025-07-14 13:11:01,777 - INFO - Configuration files: 1
+2025-07-14 13:11:01,777 - INFO - ============================================================
+2025-07-14 13:11:01,777 - INFO - Connecting to _esw020046:22
+2025-07-14 13:11:01,925 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:11:01,925 - ERROR - Failed to connect to switch _esw020046
+2025-07-14 13:11:01,925 - INFO - Disconnected from switch
+2025-07-14 13:11:01,925 - INFO - 
+============================================================
+2025-07-14 13:11:01,925 - INFO - Processing switch: _esw020047
+2025-07-14 13:11:01,925 - INFO - Configuration files: 1
+2025-07-14 13:11:01,925 - INFO - ============================================================
+2025-07-14 13:11:01,926 - INFO - Connecting to _esw020047:22
+2025-07-14 13:11:02,068 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:11:02,069 - ERROR - Failed to connect to switch _esw020047
+2025-07-14 13:11:02,069 - INFO - Disconnected from switch
+2025-07-14 13:11:02,069 - INFO - 
+============================================================
+2025-07-14 13:11:02,069 - INFO - Processing switch: _esw020048
+2025-07-14 13:11:02,069 - INFO - Configuration files: 1
+2025-07-14 13:11:02,069 - INFO - ============================================================
+2025-07-14 13:11:02,069 - INFO - Connecting to _esw020048:22
+2025-07-14 13:11:02,212 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:11:02,213 - ERROR - Failed to connect to switch _esw020048
+2025-07-14 13:11:02,213 - INFO - Disconnected from switch
+2025-07-14 13:11:02,213 - INFO - 
+============================================================
+2025-07-14 13:11:02,213 - INFO - CONFIGURATION SUMMARY
+2025-07-14 13:11:02,213 - INFO - ============================================================
+2025-07-14 13:12:57,026 - INFO - Found 8 configuration files in directory: ../acl_generator/output/1870_sea1
+2025-07-14 13:12:57,026 - INFO - Found SW switch name: _esw020033
+2025-07-14 13:12:57,026 - INFO - Found SW switch name: _esw020034
+2025-07-14 13:12:57,026 - INFO - Found SW switch name: _esw020035
+2025-07-14 13:12:57,026 - INFO - Found SW switch name: _esw020036
+2025-07-14 13:12:57,026 - INFO - Found SW switch name: _esw020045
+2025-07-14 13:12:57,026 - INFO - Found SW switch name: _esw020046
+2025-07-14 13:12:57,026 - INFO - Found SW switch name: _esw020047
+2025-07-14 13:12:57,026 - INFO - Found SW switch name: _esw020048
+2025-07-14 13:12:57,026 - INFO - Found configuration files for 8 switches:
+2025-07-14 13:12:57,026 - INFO -   _esw020033: 1 file(s)
+2025-07-14 13:12:57,026 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:12:57,026 - INFO -   _esw020034: 1 file(s)
+2025-07-14 13:12:57,026 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:12:57,026 - INFO -   _esw020035: 1 file(s)
+2025-07-14 13:12:57,026 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:12:57,026 - INFO -   _esw020036: 1 file(s)
+2025-07-14 13:12:57,026 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:12:57,026 - INFO -   _esw020045: 1 file(s)
+2025-07-14 13:12:57,026 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:12:57,026 - INFO -   _esw020046: 1 file(s)
+2025-07-14 13:12:57,026 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:12:57,026 - INFO -   _esw020047: 1 file(s)
+2025-07-14 13:12:57,026 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:12:57,026 - INFO -   _esw020048: 1 file(s)
+2025-07-14 13:12:57,026 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:13:10,031 - INFO - 
+============================================================
+2025-07-14 13:13:10,031 - INFO - Processing switch: _esw020033
+2025-07-14 13:13:10,031 - INFO - Configuration files: 1
+2025-07-14 13:13:10,031 - INFO - ============================================================
+2025-07-14 13:13:10,032 - INFO - Connecting to _esw020033:22
+2025-07-14 13:13:10,178 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:13:10,178 - ERROR - Failed to connect to switch _esw020033
+2025-07-14 13:13:10,179 - INFO - Disconnected from switch
+2025-07-14 13:13:10,179 - INFO - 
+============================================================
+2025-07-14 13:13:10,179 - INFO - Processing switch: _esw020034
+2025-07-14 13:13:10,179 - INFO - Configuration files: 1
+2025-07-14 13:13:10,179 - INFO - ============================================================
+2025-07-14 13:13:10,179 - INFO - Connecting to _esw020034:22
+2025-07-14 13:13:10,321 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:13:10,321 - ERROR - Failed to connect to switch _esw020034
+2025-07-14 13:13:10,321 - INFO - Disconnected from switch
+2025-07-14 13:13:10,321 - INFO - 
+============================================================
+2025-07-14 13:13:10,321 - INFO - Processing switch: _esw020035
+2025-07-14 13:13:10,321 - INFO - Configuration files: 1
+2025-07-14 13:13:10,321 - INFO - ============================================================
+2025-07-14 13:13:10,321 - INFO - Connecting to _esw020035:22
+2025-07-14 13:13:10,461 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:13:10,462 - ERROR - Failed to connect to switch _esw020035
+2025-07-14 13:13:10,462 - INFO - Disconnected from switch
+2025-07-14 13:13:10,462 - INFO - 
+============================================================
+2025-07-14 13:13:10,462 - INFO - Processing switch: _esw020036
+2025-07-14 13:13:10,462 - INFO - Configuration files: 1
+2025-07-14 13:13:10,462 - INFO - ============================================================
+2025-07-14 13:13:10,462 - INFO - Connecting to _esw020036:22
+2025-07-14 13:13:10,602 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:13:10,603 - ERROR - Failed to connect to switch _esw020036
+2025-07-14 13:13:10,603 - INFO - Disconnected from switch
+2025-07-14 13:13:10,603 - INFO - 
+============================================================
+2025-07-14 13:13:10,603 - INFO - Processing switch: _esw020045
+2025-07-14 13:13:10,603 - INFO - Configuration files: 1
+2025-07-14 13:13:10,603 - INFO - ============================================================
+2025-07-14 13:13:10,603 - INFO - Connecting to _esw020045:22
+2025-07-14 13:13:10,751 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:13:10,751 - ERROR - Failed to connect to switch _esw020045
+2025-07-14 13:13:10,751 - INFO - Disconnected from switch
+2025-07-14 13:13:10,751 - INFO - 
+============================================================
+2025-07-14 13:13:10,751 - INFO - Processing switch: _esw020046
+2025-07-14 13:13:10,751 - INFO - Configuration files: 1
+2025-07-14 13:13:10,751 - INFO - ============================================================
+2025-07-14 13:13:10,752 - INFO - Connecting to _esw020046:22
+2025-07-14 13:13:10,901 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:13:10,902 - ERROR - Failed to connect to switch _esw020046
+2025-07-14 13:13:10,902 - INFO - Disconnected from switch
+2025-07-14 13:13:10,902 - INFO - 
+============================================================
+2025-07-14 13:13:10,902 - INFO - Processing switch: _esw020047
+2025-07-14 13:13:10,902 - INFO - Configuration files: 1
+2025-07-14 13:13:10,902 - INFO - ============================================================
+2025-07-14 13:13:10,902 - INFO - Connecting to _esw020047:22
+2025-07-14 13:13:11,044 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:13:11,044 - ERROR - Failed to connect to switch _esw020047
+2025-07-14 13:13:11,044 - INFO - Disconnected from switch
+2025-07-14 13:13:11,044 - INFO - 
+============================================================
+2025-07-14 13:13:11,044 - INFO - Processing switch: _esw020048
+2025-07-14 13:13:11,044 - INFO - Configuration files: 1
+2025-07-14 13:13:11,044 - INFO - ============================================================
+2025-07-14 13:13:11,044 - INFO - Connecting to _esw020048:22
+2025-07-14 13:13:11,192 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:13:11,192 - ERROR - Failed to connect to switch _esw020048
+2025-07-14 13:13:11,192 - INFO - Disconnected from switch
+2025-07-14 13:13:11,192 - INFO - 
+============================================================
+2025-07-14 13:13:11,192 - INFO - CONFIGURATION SUMMARY
+2025-07-14 13:13:11,193 - INFO - ============================================================
+2025-07-14 13:13:11,193 - ERROR - ✗ _esw020033: FAILED - Connection failed
+2025-07-14 13:13:11,193 - ERROR - ✗ _esw020034: FAILED - Connection failed
+2025-07-14 13:13:11,193 - ERROR - ✗ _esw020035: FAILED - Connection failed
+2025-07-14 13:13:11,193 - ERROR - ✗ _esw020036: FAILED - Connection failed
+2025-07-14 13:13:11,193 - ERROR - ✗ _esw020045: FAILED - Connection failed
+2025-07-14 13:13:11,193 - ERROR - ✗ _esw020046: FAILED - Connection failed
+2025-07-14 13:13:11,193 - ERROR - ✗ _esw020047: FAILED - Connection failed
+2025-07-14 13:13:11,193 - ERROR - ✗ _esw020048: FAILED - Connection failed
+2025-07-14 13:13:11,193 - INFO - 
+Successful: 0/8
+2025-07-14 13:13:11,194 - INFO - Failed: 8/8
+2025-07-14 13:13:11,194 - ERROR - Some switches failed configuration. Check logs above for details.
+2025-07-14 13:16:21,285 - INFO - Found 8 configuration files in directory: ../acl_generator/output/1870_sea1
+2025-07-14 13:16:21,285 - INFO - Found SW switch name: _esw020033
+2025-07-14 13:16:21,285 - INFO - Found SW switch name: _esw020034
+2025-07-14 13:16:21,285 - INFO - Found SW switch name: _esw020035
+2025-07-14 13:16:21,285 - INFO - Found SW switch name: _esw020036
+2025-07-14 13:16:21,285 - INFO - Found SW switch name: _esw020045
+2025-07-14 13:16:21,285 - INFO - Found SW switch name: _esw020046
+2025-07-14 13:16:21,285 - INFO - Found SW switch name: _esw020047
+2025-07-14 13:16:21,285 - INFO - Found SW switch name: _esw020048
+2025-07-14 13:16:21,285 - INFO - Found configuration files for 8 switches:
+2025-07-14 13:16:21,286 - INFO -   _esw020033: 1 file(s)
+2025-07-14 13:16:21,286 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:16:21,286 - INFO -   _esw020034: 1 file(s)
+2025-07-14 13:16:21,286 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:16:21,286 - INFO -   _esw020035: 1 file(s)
+2025-07-14 13:16:21,286 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:16:21,286 - INFO -   _esw020036: 1 file(s)
+2025-07-14 13:16:21,286 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:16:21,286 - INFO -   _esw020045: 1 file(s)
+2025-07-14 13:16:21,286 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:16:21,286 - INFO -   _esw020046: 1 file(s)
+2025-07-14 13:16:21,286 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:16:21,286 - INFO -   _esw020047: 1 file(s)
+2025-07-14 13:16:21,286 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:16:21,286 - INFO -   _esw020048: 1 file(s)
+2025-07-14 13:16:21,286 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:16:34,426 - INFO - 
+============================================================
+2025-07-14 13:16:34,426 - INFO - Processing switch: _esw020033
+2025-07-14 13:16:34,426 - INFO - Configuration files: 1
+2025-07-14 13:16:34,427 - INFO - ============================================================
+2025-07-14 13:16:34,427 - INFO - Connecting to _esw020033:22
+2025-07-14 13:16:34,575 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:16:34,575 - ERROR - Failed to connect to switch _esw020033
+2025-07-14 13:16:34,575 - INFO - Disconnected from switch
+2025-07-14 13:16:34,575 - INFO - 
+============================================================
+2025-07-14 13:16:34,575 - INFO - Processing switch: _esw020034
+2025-07-14 13:16:34,576 - INFO - Configuration files: 1
+2025-07-14 13:16:34,576 - INFO - ============================================================
+2025-07-14 13:16:34,576 - INFO - Connecting to _esw020034:22
+2025-07-14 13:16:34,724 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:16:34,724 - ERROR - Failed to connect to switch _esw020034
+2025-07-14 13:16:34,724 - INFO - Disconnected from switch
+2025-07-14 13:16:34,724 - INFO - 
+============================================================
+2025-07-14 13:16:34,724 - INFO - Processing switch: _esw020035
+2025-07-14 13:16:34,725 - INFO - Configuration files: 1
+2025-07-14 13:16:34,725 - INFO - ============================================================
+2025-07-14 13:16:34,725 - INFO - Connecting to _esw020035:22
+2025-07-14 13:16:34,867 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:16:34,867 - ERROR - Failed to connect to switch _esw020035
+2025-07-14 13:16:34,867 - INFO - Disconnected from switch
+2025-07-14 13:16:34,867 - INFO - 
+============================================================
+2025-07-14 13:16:34,867 - INFO - Processing switch: _esw020036
+2025-07-14 13:16:34,867 - INFO - Configuration files: 1
+2025-07-14 13:16:34,867 - INFO - ============================================================
+2025-07-14 13:16:34,867 - INFO - Connecting to _esw020036:22
+2025-07-14 13:16:35,012 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:16:35,012 - ERROR - Failed to connect to switch _esw020036
+2025-07-14 13:16:35,012 - INFO - Disconnected from switch
+2025-07-14 13:16:35,012 - INFO - 
+============================================================
+2025-07-14 13:16:35,012 - INFO - Processing switch: _esw020045
+2025-07-14 13:16:35,012 - INFO - Configuration files: 1
+2025-07-14 13:16:35,012 - INFO - ============================================================
+2025-07-14 13:16:35,012 - INFO - Connecting to _esw020045:22
+2025-07-14 13:16:35,161 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:16:35,162 - ERROR - Failed to connect to switch _esw020045
+2025-07-14 13:16:35,162 - INFO - Disconnected from switch
+2025-07-14 13:16:35,162 - INFO - 
+============================================================
+2025-07-14 13:16:35,162 - INFO - Processing switch: _esw020046
+2025-07-14 13:16:35,162 - INFO - Configuration files: 1
+2025-07-14 13:16:35,162 - INFO - ============================================================
+2025-07-14 13:16:35,162 - INFO - Connecting to _esw020046:22
+2025-07-14 13:16:35,304 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:16:35,305 - ERROR - Failed to connect to switch _esw020046
+2025-07-14 13:16:35,305 - INFO - Disconnected from switch
+2025-07-14 13:16:35,305 - INFO - 
+============================================================
+2025-07-14 13:16:35,305 - INFO - Processing switch: _esw020047
+2025-07-14 13:16:35,305 - INFO - Configuration files: 1
+2025-07-14 13:16:35,305 - INFO - ============================================================
+2025-07-14 13:16:35,305 - INFO - Connecting to _esw020047:22
+2025-07-14 13:16:35,453 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:16:35,453 - ERROR - Failed to connect to switch _esw020047
+2025-07-14 13:16:35,454 - INFO - Disconnected from switch
+2025-07-14 13:16:35,454 - INFO - 
+============================================================
+2025-07-14 13:16:35,454 - INFO - Processing switch: _esw020048
+2025-07-14 13:16:35,454 - INFO - Configuration files: 1
+2025-07-14 13:16:35,454 - INFO - ============================================================
+2025-07-14 13:16:35,454 - INFO - Connecting to _esw020048:22
+2025-07-14 13:16:35,602 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:16:35,602 - ERROR - Failed to connect to switch _esw020048
+2025-07-14 13:16:35,603 - INFO - Disconnected from switch
+2025-07-14 13:16:35,603 - INFO - 
+============================================================
+2025-07-14 13:16:35,603 - INFO - CONFIGURATION SUMMARY
+2025-07-14 13:16:35,603 - INFO - ============================================================
+2025-07-14 13:16:35,603 - ERROR - ✗ _esw020033: FAILED - Connection failed
+2025-07-14 13:16:35,603 - ERROR - ✗ _esw020034: FAILED - Connection failed
+2025-07-14 13:16:35,603 - ERROR - ✗ _esw020035: FAILED - Connection failed
+2025-07-14 13:16:35,603 - ERROR - ✗ _esw020036: FAILED - Connection failed
+2025-07-14 13:16:35,603 - ERROR - ✗ _esw020045: FAILED - Connection failed
+2025-07-14 13:16:35,603 - ERROR - ✗ _esw020046: FAILED - Connection failed
+2025-07-14 13:16:35,604 - ERROR - ✗ _esw020047: FAILED - Connection failed
+2025-07-14 13:16:35,604 - ERROR - ✗ _esw020048: FAILED - Connection failed
+2025-07-14 13:16:35,604 - INFO - 
+Successful: 0/8
+2025-07-14 13:16:35,604 - INFO - Failed: 8/8
+2025-07-14 13:16:35,604 - ERROR - Some switches failed configuration. Check logs above for details.
+2025-07-14 13:19:32,518 - INFO - Found 8 configuration files in directory: ../acl_generator/output/1870_sea1
+2025-07-14 13:19:32,519 - INFO - Found SW switch name: _esw020033
+2025-07-14 13:19:32,519 - INFO - Found SW switch name: _esw020034
+2025-07-14 13:19:32,519 - INFO - Found SW switch name: _esw020035
+2025-07-14 13:19:32,519 - INFO - Found SW switch name: _esw020036
+2025-07-14 13:19:32,519 - INFO - Found SW switch name: _esw020045
+2025-07-14 13:19:32,519 - INFO - Found SW switch name: _esw020046
+2025-07-14 13:19:32,519 - INFO - Found SW switch name: _esw020047
+2025-07-14 13:19:32,519 - INFO - Found SW switch name: _esw020048
+2025-07-14 13:19:32,519 - INFO - Found configuration files for 8 switches:
+2025-07-14 13:19:32,519 - INFO -   _esw020033: 1 file(s)
+2025-07-14 13:19:32,519 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:19:32,519 - INFO -   _esw020034: 1 file(s)
+2025-07-14 13:19:32,519 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:19:32,519 - INFO -   _esw020035: 1 file(s)
+2025-07-14 13:19:32,519 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:19:32,519 - INFO -   _esw020036: 1 file(s)
+2025-07-14 13:19:32,519 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:19:32,519 - INFO -   _esw020045: 1 file(s)
+2025-07-14 13:19:32,519 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:19:32,519 - INFO -   _esw020046: 1 file(s)
+2025-07-14 13:19:32,519 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:19:32,519 - INFO -   _esw020047: 1 file(s)
+2025-07-14 13:19:32,519 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:19:32,519 - INFO -   _esw020048: 1 file(s)
+2025-07-14 13:19:32,519 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:19:44,507 - INFO - 
+============================================================
+2025-07-14 13:19:44,507 - INFO - Processing switch: _esw020033
+2025-07-14 13:19:44,507 - INFO - Configuration files: 1
+2025-07-14 13:19:44,507 - INFO - ============================================================
+2025-07-14 13:19:44,507 - INFO - Connecting to _esw020033:22
+2025-07-14 13:19:44,657 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:19:44,657 - ERROR - Failed to connect to switch _esw020033
+2025-07-14 13:19:44,658 - INFO - Disconnected from switch
+2025-07-14 13:19:44,658 - INFO - 
+============================================================
+2025-07-14 13:19:44,658 - INFO - Processing switch: _esw020034
+2025-07-14 13:19:44,658 - INFO - Configuration files: 1
+2025-07-14 13:19:44,658 - INFO - ============================================================
+2025-07-14 13:19:44,658 - INFO - Connecting to _esw020034:22
+2025-07-14 13:19:44,802 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:19:44,802 - ERROR - Failed to connect to switch _esw020034
+2025-07-14 13:19:44,802 - INFO - Disconnected from switch
+2025-07-14 13:19:44,803 - INFO - 
+============================================================
+2025-07-14 13:19:44,803 - INFO - Processing switch: _esw020035
+2025-07-14 13:19:44,803 - INFO - Configuration files: 1
+2025-07-14 13:19:44,803 - INFO - ============================================================
+2025-07-14 13:19:44,803 - INFO - Connecting to _esw020035:22
+2025-07-14 13:19:44,946 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:19:44,946 - ERROR - Failed to connect to switch _esw020035
+2025-07-14 13:19:44,955 - INFO - Disconnected from switch
+2025-07-14 13:19:44,956 - INFO - 
+============================================================
+2025-07-14 13:19:44,956 - INFO - Processing switch: _esw020036
+2025-07-14 13:19:44,956 - INFO - Configuration files: 1
+2025-07-14 13:19:44,956 - INFO - ============================================================
+2025-07-14 13:19:44,956 - INFO - Connecting to _esw020036:22
+2025-07-14 13:19:45,100 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:19:45,101 - ERROR - Failed to connect to switch _esw020036
+2025-07-14 13:19:45,101 - INFO - Disconnected from switch
+2025-07-14 13:19:45,101 - INFO - 
+============================================================
+2025-07-14 13:19:45,101 - INFO - Processing switch: _esw020045
+2025-07-14 13:19:45,101 - INFO - Configuration files: 1
+2025-07-14 13:19:45,101 - INFO - ============================================================
+2025-07-14 13:19:45,101 - INFO - Connecting to _esw020045:22
+2025-07-14 13:19:45,256 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:19:45,256 - ERROR - Failed to connect to switch _esw020045
+2025-07-14 13:19:45,257 - INFO - Disconnected from switch
+2025-07-14 13:19:45,257 - INFO - 
+============================================================
+2025-07-14 13:19:45,257 - INFO - Processing switch: _esw020046
+2025-07-14 13:19:45,257 - INFO - Configuration files: 1
+2025-07-14 13:19:45,257 - INFO - ============================================================
+2025-07-14 13:19:45,257 - INFO - Connecting to _esw020046:22
+2025-07-14 13:19:45,398 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:19:45,399 - ERROR - Failed to connect to switch _esw020046
+2025-07-14 13:19:45,399 - INFO - Disconnected from switch
+2025-07-14 13:19:45,399 - INFO - 
+============================================================
+2025-07-14 13:19:45,399 - INFO - Processing switch: _esw020047
+2025-07-14 13:19:45,400 - INFO - Configuration files: 1
+2025-07-14 13:19:45,400 - INFO - ============================================================
+2025-07-14 13:19:45,400 - INFO - Connecting to _esw020047:22
+2025-07-14 13:19:45,544 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:19:45,545 - ERROR - Failed to connect to switch _esw020047
+2025-07-14 13:19:45,545 - INFO - Disconnected from switch
+2025-07-14 13:19:45,545 - INFO - 
+============================================================
+2025-07-14 13:19:45,545 - INFO - Processing switch: _esw020048
+2025-07-14 13:19:45,545 - INFO - Configuration files: 1
+2025-07-14 13:19:45,545 - INFO - ============================================================
+2025-07-14 13:19:45,545 - INFO - Connecting to _esw020048:22
+2025-07-14 13:19:45,689 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:19:45,689 - ERROR - Failed to connect to switch _esw020048
+2025-07-14 13:19:45,690 - INFO - Disconnected from switch
+2025-07-14 13:19:45,690 - INFO - 
+============================================================
+2025-07-14 13:19:45,690 - INFO - CONFIGURATION SUMMARY
+2025-07-14 13:19:45,690 - INFO - ============================================================
+2025-07-14 13:19:45,690 - ERROR - ✗ _esw020033: FAILED - Connection failed
+2025-07-14 13:19:45,690 - ERROR - ✗ _esw020034: FAILED - Connection failed
+2025-07-14 13:19:45,690 - ERROR - ✗ _esw020035: FAILED - Connection failed
+2025-07-14 13:19:45,691 - ERROR - ✗ _esw020036: FAILED - Connection failed
+2025-07-14 13:19:45,691 - ERROR - ✗ _esw020045: FAILED - Connection failed
+2025-07-14 13:19:45,691 - ERROR - ✗ _esw020046: FAILED - Connection failed
+2025-07-14 13:19:45,691 - ERROR - ✗ _esw020047: FAILED - Connection failed
+2025-07-14 13:19:45,691 - ERROR - ✗ _esw020048: FAILED - Connection failed
+2025-07-14 13:19:45,691 - INFO - 
+Successful: 0/8
+2025-07-14 13:19:45,691 - INFO - Failed: 8/8
+2025-07-14 13:19:45,691 - ERROR - Some switches failed configuration. Check logs above for details.
+2025-07-14 13:20:27,738 - INFO - Found 8 configuration files in directory: ../acl_generator/output/1870_sea1
+2025-07-14 13:20:27,738 - INFO - Found SW switch name: esw020033
+2025-07-14 13:20:27,738 - INFO - Found SW switch name: esw020034
+2025-07-14 13:20:27,738 - INFO - Found SW switch name: esw020035
+2025-07-14 13:20:27,738 - INFO - Found SW switch name: esw020036
+2025-07-14 13:20:27,738 - INFO - Found SW switch name: esw020045
+2025-07-14 13:20:27,738 - INFO - Found SW switch name: esw020046
+2025-07-14 13:20:27,738 - INFO - Found SW switch name: esw020047
+2025-07-14 13:20:27,738 - INFO - Found SW switch name: esw020048
+2025-07-14 13:20:27,738 - INFO - Found configuration files for 8 switches:
+2025-07-14 13:20:27,738 - INFO -   esw020033: 1 file(s)
+2025-07-14 13:20:27,738 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:20:27,738 - INFO -   esw020034: 1 file(s)
+2025-07-14 13:20:27,738 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:20:27,738 - INFO -   esw020035: 1 file(s)
+2025-07-14 13:20:27,738 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:20:27,738 - INFO -   esw020036: 1 file(s)
+2025-07-14 13:20:27,738 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:20:27,738 - INFO -   esw020045: 1 file(s)
+2025-07-14 13:20:27,738 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:20:27,738 - INFO -   esw020046: 1 file(s)
+2025-07-14 13:20:27,738 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:20:27,738 - INFO -   esw020047: 1 file(s)
+2025-07-14 13:20:27,738 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:20:27,738 - INFO -   esw020048: 1 file(s)
+2025-07-14 13:20:27,738 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:20:34,042 - INFO - 
+============================================================
+2025-07-14 13:20:34,042 - INFO - Processing switch: esw020033
+2025-07-14 13:20:34,042 - INFO - Configuration files: 1
+2025-07-14 13:20:34,042 - INFO - ============================================================
+2025-07-14 13:20:34,042 - INFO - Connecting to esw020033:22
+2025-07-14 13:20:34,188 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:20:35,813 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:20:35,813 - INFO - Authentication (password) failed.
+2025-07-14 13:20:35,814 - ERROR - Authentication failed
+2025-07-14 13:20:35,814 - ERROR - Failed to connect to switch esw020033
+2025-07-14 13:20:35,814 - INFO - Disconnected from switch
+2025-07-14 13:20:35,814 - INFO - 
+============================================================
+2025-07-14 13:20:35,814 - INFO - Processing switch: esw020034
+2025-07-14 13:20:35,814 - INFO - Configuration files: 1
+2025-07-14 13:20:35,814 - INFO - ============================================================
+2025-07-14 13:20:35,815 - INFO - Connecting to esw020034:22
+2025-07-14 13:20:35,934 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:20:37,622 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:20:37,622 - INFO - Authentication (password) failed.
+2025-07-14 13:20:37,623 - ERROR - Authentication failed
+2025-07-14 13:20:37,623 - ERROR - Failed to connect to switch esw020034
+2025-07-14 13:20:37,623 - INFO - Disconnected from switch
+2025-07-14 13:20:37,624 - INFO - 
+============================================================
+2025-07-14 13:20:37,624 - INFO - Processing switch: esw020035
+2025-07-14 13:20:37,624 - INFO - Configuration files: 1
+2025-07-14 13:20:37,624 - INFO - ============================================================
+2025-07-14 13:20:37,624 - INFO - Connecting to esw020035:22
+2025-07-14 13:20:37,740 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:20:39,915 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:20:39,915 - INFO - Authentication (password) failed.
+2025-07-14 13:20:39,916 - ERROR - Authentication failed
+2025-07-14 13:20:39,916 - ERROR - Failed to connect to switch esw020035
+2025-07-14 13:20:39,916 - INFO - Disconnected from switch
+2025-07-14 13:20:39,916 - INFO - 
+============================================================
+2025-07-14 13:20:39,916 - INFO - Processing switch: esw020036
+2025-07-14 13:20:39,917 - INFO - Configuration files: 1
+2025-07-14 13:20:39,917 - INFO - ============================================================
+2025-07-14 13:20:39,917 - INFO - Connecting to esw020036:22
+2025-07-14 13:20:40,038 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:20:42,367 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:20:42,368 - INFO - Authentication (password) failed.
+2025-07-14 13:20:42,369 - ERROR - Authentication failed
+2025-07-14 13:20:42,369 - ERROR - Failed to connect to switch esw020036
+2025-07-14 13:20:42,369 - INFO - Disconnected from switch
+2025-07-14 13:20:42,369 - INFO - 
+============================================================
+2025-07-14 13:20:42,369 - INFO - Processing switch: esw020045
+2025-07-14 13:20:42,369 - INFO - Configuration files: 1
+2025-07-14 13:20:42,369 - INFO - ============================================================
+2025-07-14 13:20:42,370 - INFO - Connecting to esw020045:22
+2025-07-14 13:20:42,488 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:20:44,576 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:20:44,576 - INFO - Authentication (password) failed.
+2025-07-14 13:20:44,577 - ERROR - Authentication failed
+2025-07-14 13:20:44,577 - ERROR - Failed to connect to switch esw020045
+2025-07-14 13:20:44,577 - INFO - Disconnected from switch
+2025-07-14 13:20:44,577 - INFO - 
+============================================================
+2025-07-14 13:20:44,577 - INFO - Processing switch: esw020046
+2025-07-14 13:20:44,577 - INFO - Configuration files: 1
+2025-07-14 13:20:44,577 - INFO - ============================================================
+2025-07-14 13:20:44,577 - INFO - Connecting to esw020046:22
+2025-07-14 13:20:44,696 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:20:46,633 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:20:46,634 - INFO - Authentication (password) failed.
+2025-07-14 13:20:46,634 - ERROR - Authentication failed
+2025-07-14 13:20:46,635 - ERROR - Failed to connect to switch esw020046
+2025-07-14 13:20:46,635 - INFO - Disconnected from switch
+2025-07-14 13:20:46,635 - INFO - 
+============================================================
+2025-07-14 13:20:46,635 - INFO - Processing switch: esw020047
+2025-07-14 13:20:46,635 - INFO - Configuration files: 1
+2025-07-14 13:20:46,635 - INFO - ============================================================
+2025-07-14 13:20:46,635 - INFO - Connecting to esw020047:22
+2025-07-14 13:20:46,756 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:20:48,939 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:20:48,939 - INFO - Authentication (password) failed.
+2025-07-14 13:20:48,940 - ERROR - Authentication failed
+2025-07-14 13:20:48,940 - ERROR - Failed to connect to switch esw020047
+2025-07-14 13:20:48,940 - INFO - Disconnected from switch
+2025-07-14 13:20:48,940 - INFO - 
+============================================================
+2025-07-14 13:20:48,940 - INFO - Processing switch: esw020048
+2025-07-14 13:20:48,940 - INFO - Configuration files: 1
+2025-07-14 13:20:48,940 - INFO - ============================================================
+2025-07-14 13:20:48,941 - INFO - Connecting to esw020048:22
+2025-07-14 13:20:49,058 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:20:51,588 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:20:51,589 - INFO - Authentication (password) failed.
+2025-07-14 13:20:51,589 - ERROR - Authentication failed
+2025-07-14 13:20:51,590 - ERROR - Failed to connect to switch esw020048
+2025-07-14 13:20:51,590 - INFO - Disconnected from switch
+2025-07-14 13:20:51,590 - INFO - 
+============================================================
+2025-07-14 13:20:51,590 - INFO - CONFIGURATION SUMMARY
+2025-07-14 13:20:51,590 - INFO - ============================================================
+2025-07-14 13:20:51,590 - ERROR - ✗ esw020033: FAILED - Connection failed
+2025-07-14 13:20:51,590 - ERROR - ✗ esw020034: FAILED - Connection failed
+2025-07-14 13:20:51,590 - ERROR - ✗ esw020035: FAILED - Connection failed
+2025-07-14 13:20:51,590 - ERROR - ✗ esw020036: FAILED - Connection failed
+2025-07-14 13:20:51,590 - ERROR - ✗ esw020045: FAILED - Connection failed
+2025-07-14 13:20:51,590 - ERROR - ✗ esw020046: FAILED - Connection failed
+2025-07-14 13:20:51,590 - ERROR - ✗ esw020047: FAILED - Connection failed
+2025-07-14 13:20:51,590 - ERROR - ✗ esw020048: FAILED - Connection failed
+2025-07-14 13:20:51,590 - INFO - 
+Successful: 0/8
+2025-07-14 13:20:51,591 - INFO - Failed: 8/8
+2025-07-14 13:20:51,591 - ERROR - Some switches failed configuration. Check logs above for details.
+2025-07-14 13:21:02,197 - INFO - Found 8 configuration files in directory: ../acl_generator/output/1870_sea1
+2025-07-14 13:21:02,198 - INFO - Found SW switch name: esw020033
+2025-07-14 13:21:02,198 - INFO - Found SW switch name: esw020034
+2025-07-14 13:21:02,198 - INFO - Found SW switch name: esw020035
+2025-07-14 13:21:02,198 - INFO - Found SW switch name: esw020036
+2025-07-14 13:21:02,198 - INFO - Found SW switch name: esw020045
+2025-07-14 13:21:02,198 - INFO - Found SW switch name: esw020046
+2025-07-14 13:21:02,198 - INFO - Found SW switch name: esw020047
+2025-07-14 13:21:02,198 - INFO - Found SW switch name: esw020048
+2025-07-14 13:21:02,198 - INFO - Found configuration files for 8 switches:
+2025-07-14 13:21:02,198 - INFO -   esw020033: 1 file(s)
+2025-07-14 13:21:02,198 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:02,198 - INFO -   esw020034: 1 file(s)
+2025-07-14 13:21:02,198 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:02,198 - INFO -   esw020035: 1 file(s)
+2025-07-14 13:21:02,198 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:02,198 - INFO -   esw020036: 1 file(s)
+2025-07-14 13:21:02,198 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:02,198 - INFO -   esw020045: 1 file(s)
+2025-07-14 13:21:02,198 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:02,198 - INFO -   esw020046: 1 file(s)
+2025-07-14 13:21:02,198 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:02,198 - INFO -   esw020047: 1 file(s)
+2025-07-14 13:21:02,198 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:02,198 - INFO -   esw020048: 1 file(s)
+2025-07-14 13:21:02,198 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:12,033 - INFO - 
+============================================================
+2025-07-14 13:21:12,033 - INFO - Processing switch: esw020033
+2025-07-14 13:21:12,033 - INFO - Configuration files: 1
+2025-07-14 13:21:12,033 - INFO - ============================================================
+2025-07-14 13:21:12,034 - INFO - Connecting to esw020033:22
+2025-07-14 13:21:12,157 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:21:13,777 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:21:13,784 - INFO - Authentication (password) failed.
+2025-07-14 13:21:13,785 - ERROR - Authentication failed
+2025-07-14 13:21:13,785 - ERROR - Failed to connect to switch esw020033
+2025-07-14 13:21:13,786 - INFO - Disconnected from switch
+2025-07-14 13:21:13,786 - INFO - 
+============================================================
+2025-07-14 13:21:13,786 - INFO - Processing switch: esw020034
+2025-07-14 13:21:13,786 - INFO - Configuration files: 1
+2025-07-14 13:21:13,786 - INFO - ============================================================
+2025-07-14 13:21:13,786 - INFO - Connecting to esw020034:22
+2025-07-14 13:21:13,906 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:21:15,606 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:21:15,606 - INFO - Authentication (password) failed.
+2025-07-14 13:21:15,607 - ERROR - Authentication failed
+2025-07-14 13:21:15,607 - ERROR - Failed to connect to switch esw020034
+2025-07-14 13:21:15,607 - INFO - Disconnected from switch
+2025-07-14 13:21:15,607 - INFO - 
+============================================================
+2025-07-14 13:21:15,607 - INFO - Processing switch: esw020035
+2025-07-14 13:21:15,607 - INFO - Configuration files: 1
+2025-07-14 13:21:15,607 - INFO - ============================================================
+2025-07-14 13:21:15,607 - INFO - Connecting to esw020035:22
+2025-07-14 13:21:15,730 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:21:16,244 - INFO - Operation cancelled by user
+2025-07-14 13:21:16,244 - INFO - Disconnected from switch
+2025-07-14 13:21:16,244 - INFO - 
+============================================================
+2025-07-14 13:21:16,244 - INFO - CONFIGURATION SUMMARY
+2025-07-14 13:21:16,245 - INFO - ============================================================
+2025-07-14 13:21:16,245 - ERROR - ✗ esw020033: FAILED - Connection failed
+2025-07-14 13:21:16,245 - ERROR - ✗ esw020034: FAILED - Connection failed
+2025-07-14 13:21:16,245 - ERROR - ✗ esw020035: FAILED - Cancelled by user
+2025-07-14 13:21:16,245 - INFO - 
+Successful: 0/8
+2025-07-14 13:21:16,245 - INFO - Failed: 3/8
+2025-07-14 13:21:16,245 - ERROR - Some switches failed configuration. Check logs above for details.
+2025-07-14 13:21:33,909 - INFO - Found 8 configuration files in directory: ../acl_generator/output/1870_sea1
+2025-07-14 13:21:33,909 - INFO - Found SW switch name: esw020033
+2025-07-14 13:21:33,909 - INFO - Found SW switch name: esw020034
+2025-07-14 13:21:33,909 - INFO - Found SW switch name: esw020035
+2025-07-14 13:21:33,909 - INFO - Found SW switch name: esw020036
+2025-07-14 13:21:33,909 - INFO - Found SW switch name: esw020045
+2025-07-14 13:21:33,909 - INFO - Found SW switch name: esw020046
+2025-07-14 13:21:33,909 - INFO - Found SW switch name: esw020047
+2025-07-14 13:21:33,909 - INFO - Found SW switch name: esw020048
+2025-07-14 13:21:33,909 - INFO - Found configuration files for 8 switches:
+2025-07-14 13:21:33,909 - INFO -   esw020033: 1 file(s)
+2025-07-14 13:21:33,909 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:33,909 - INFO -   esw020034: 1 file(s)
+2025-07-14 13:21:33,909 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:33,909 - INFO -   esw020035: 1 file(s)
+2025-07-14 13:21:33,910 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:33,910 - INFO -   esw020036: 1 file(s)
+2025-07-14 13:21:33,910 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:33,910 - INFO -   esw020045: 1 file(s)
+2025-07-14 13:21:33,910 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:33,910 - INFO -   esw020046: 1 file(s)
+2025-07-14 13:21:33,910 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:33,910 - INFO -   esw020047: 1 file(s)
+2025-07-14 13:21:33,910 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:33,910 - INFO -   esw020048: 1 file(s)
+2025-07-14 13:21:33,910 - INFO -     - ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:47,421 - INFO - 
+============================================================
+2025-07-14 13:21:47,422 - INFO - Processing switch: esw020033
+2025-07-14 13:21:47,422 - INFO - Configuration files: 1
+2025-07-14 13:21:47,422 - INFO - ============================================================
+2025-07-14 13:21:47,422 - INFO - Connecting to esw020033:22
+2025-07-14 13:21:47,542 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:21:47,936 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:21:47,936 - INFO - Authentication (password) successful!
+2025-07-14 13:21:47,937 - INFO - Successfully connected to switch
+2025-07-14 13:21:47,937 - INFO - Applying configuration from 1 file(s) to esw020033
+2025-07-14 13:21:47,937 - INFO - Processing file 1/1: ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:47,938 - INFO - Reading configuration from ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:47,938 - INFO - Found 1 configuration lines
+2025-07-14 13:21:47,938 - INFO - Applying 1 configuration commands
+2025-07-14 13:21:47,938 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:21:49,451 - INFO - Starting SONiC CLI session
+2025-07-14 13:21:51,452 - INFO - Entering configuration mode
+2025-07-14 13:21:52,453 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:21:52,955 - INFO - Exiting configuration mode
+2025-07-14 13:21:53,955 - INFO - Saving configuration to memory
+2025-07-14 13:21:55,956 - INFO - Configuration saved successfully
+2025-07-14 13:21:56,958 - INFO - Configuration file ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020033_acl.txt.new.txt.new.txt.new.txt applied successfully
+2025-07-14 13:21:56,958 - INFO - All configuration files applied successfully to esw020033!
+2025-07-14 13:21:56,959 - INFO - Disconnected from switch
+2025-07-14 13:21:56,959 - INFO - 
+============================================================
+2025-07-14 13:21:56,959 - INFO - Processing switch: esw020034
+2025-07-14 13:21:56,959 - INFO - Configuration files: 1
+2025-07-14 13:21:56,959 - INFO - ============================================================
+2025-07-14 13:21:56,960 - INFO - Connecting to esw020034:22
+2025-07-14 13:21:57,076 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:21:57,485 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:21:57,485 - INFO - Authentication (password) successful!
+2025-07-14 13:21:57,485 - INFO - Successfully connected to switch
+2025-07-14 13:21:57,485 - INFO - Applying configuration from 1 file(s) to esw020034
+2025-07-14 13:21:57,485 - INFO - Processing file 1/1: ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:57,485 - INFO - Reading configuration from ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:21:57,485 - INFO - Found 1 configuration lines
+2025-07-14 13:21:57,485 - INFO - Applying 1 configuration commands
+2025-07-14 13:21:57,485 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:21:59,001 - INFO - Starting SONiC CLI session
+2025-07-14 13:22:01,002 - INFO - Entering configuration mode
+2025-07-14 13:22:02,003 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:22:02,504 - INFO - Exiting configuration mode
+2025-07-14 13:22:03,504 - INFO - Saving configuration to memory
+2025-07-14 13:22:05,505 - INFO - Configuration saved successfully
+2025-07-14 13:22:06,507 - INFO - Configuration file ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020034_acl.txt.new.txt.new.txt.new.txt applied successfully
+2025-07-14 13:22:06,507 - INFO - All configuration files applied successfully to esw020034!
+2025-07-14 13:22:06,507 - INFO - Disconnected from switch
+2025-07-14 13:22:06,508 - INFO - 
+============================================================
+2025-07-14 13:22:06,508 - INFO - Processing switch: esw020035
+2025-07-14 13:22:06,508 - INFO - Configuration files: 1
+2025-07-14 13:22:06,508 - INFO - ============================================================
+2025-07-14 13:22:06,508 - INFO - Connecting to esw020035:22
+2025-07-14 13:22:06,625 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:22:06,976 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:22:06,977 - INFO - Authentication (password) successful!
+2025-07-14 13:22:06,977 - INFO - Successfully connected to switch
+2025-07-14 13:22:06,977 - INFO - Applying configuration from 1 file(s) to esw020035
+2025-07-14 13:22:06,978 - INFO - Processing file 1/1: ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:06,978 - INFO - Reading configuration from ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:06,978 - INFO - Found 1 configuration lines
+2025-07-14 13:22:06,979 - INFO - Applying 1 configuration commands
+2025-07-14 13:22:06,979 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:22:08,497 - INFO - Starting SONiC CLI session
+2025-07-14 13:22:10,498 - INFO - Entering configuration mode
+2025-07-14 13:22:11,499 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:22:12,000 - INFO - Exiting configuration mode
+2025-07-14 13:22:13,001 - INFO - Saving configuration to memory
+2025-07-14 13:22:15,002 - INFO - Configuration saved successfully
+2025-07-14 13:22:16,004 - INFO - Configuration file ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020035_acl.txt.new.txt.new.txt.new.txt applied successfully
+2025-07-14 13:22:16,004 - INFO - All configuration files applied successfully to esw020035!
+2025-07-14 13:22:16,004 - INFO - Disconnected from switch
+2025-07-14 13:22:16,004 - INFO - 
+============================================================
+2025-07-14 13:22:16,004 - INFO - Processing switch: esw020036
+2025-07-14 13:22:16,005 - INFO - Configuration files: 1
+2025-07-14 13:22:16,005 - INFO - ============================================================
+2025-07-14 13:22:16,005 - INFO - Connecting to esw020036:22
+2025-07-14 13:22:16,123 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:22:16,471 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:22:16,471 - INFO - Authentication (password) successful!
+2025-07-14 13:22:16,472 - INFO - Successfully connected to switch
+2025-07-14 13:22:16,472 - INFO - Applying configuration from 1 file(s) to esw020036
+2025-07-14 13:22:16,472 - INFO - Processing file 1/1: ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:16,472 - INFO - Reading configuration from ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:16,472 - INFO - Found 1 configuration lines
+2025-07-14 13:22:16,472 - INFO - Applying 1 configuration commands
+2025-07-14 13:22:16,472 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:22:17,991 - INFO - Starting SONiC CLI session
+2025-07-14 13:22:19,992 - INFO - Entering configuration mode
+2025-07-14 13:22:20,993 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:22:21,494 - INFO - Exiting configuration mode
+2025-07-14 13:22:22,495 - INFO - Saving configuration to memory
+2025-07-14 13:22:24,496 - INFO - Configuration saved successfully
+2025-07-14 13:22:25,498 - INFO - Configuration file ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020036_acl.txt.new.txt.new.txt.new.txt applied successfully
+2025-07-14 13:22:25,498 - INFO - All configuration files applied successfully to esw020036!
+2025-07-14 13:22:25,498 - INFO - Disconnected from switch
+2025-07-14 13:22:25,498 - INFO - 
+============================================================
+2025-07-14 13:22:25,498 - INFO - Processing switch: esw020045
+2025-07-14 13:22:25,499 - INFO - Configuration files: 1
+2025-07-14 13:22:25,499 - INFO - ============================================================
+2025-07-14 13:22:25,499 - INFO - Connecting to esw020045:22
+2025-07-14 13:22:25,615 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:22:25,951 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:22:25,952 - INFO - Authentication (password) successful!
+2025-07-14 13:22:25,952 - INFO - Successfully connected to switch
+2025-07-14 13:22:25,952 - INFO - Applying configuration from 1 file(s) to esw020045
+2025-07-14 13:22:25,952 - INFO - Processing file 1/1: ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:25,952 - INFO - Reading configuration from ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:25,953 - INFO - Found 1 configuration lines
+2025-07-14 13:22:25,953 - INFO - Applying 1 configuration commands
+2025-07-14 13:22:25,953 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:22:27,465 - INFO - Starting SONiC CLI session
+2025-07-14 13:22:29,466 - INFO - Entering configuration mode
+2025-07-14 13:22:30,467 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:22:30,968 - INFO - Exiting configuration mode
+2025-07-14 13:22:31,969 - INFO - Saving configuration to memory
+2025-07-14 13:22:33,970 - INFO - Configuration saved successfully
+2025-07-14 13:22:34,972 - INFO - Configuration file ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt.new.txt.new.txt applied successfully
+2025-07-14 13:22:34,973 - INFO - All configuration files applied successfully to esw020045!
+2025-07-14 13:22:34,973 - INFO - Disconnected from switch
+2025-07-14 13:22:34,973 - INFO - 
+============================================================
+2025-07-14 13:22:34,973 - INFO - Processing switch: esw020046
+2025-07-14 13:22:34,973 - INFO - Configuration files: 1
+2025-07-14 13:22:34,973 - INFO - ============================================================
+2025-07-14 13:22:34,973 - INFO - Connecting to esw020046:22
+2025-07-14 13:22:35,096 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:22:35,612 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:22:35,612 - INFO - Authentication (password) successful!
+2025-07-14 13:22:35,613 - INFO - Successfully connected to switch
+2025-07-14 13:22:35,613 - INFO - Applying configuration from 1 file(s) to esw020046
+2025-07-14 13:22:35,613 - INFO - Processing file 1/1: ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:35,613 - INFO - Reading configuration from ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:35,614 - INFO - Found 1 configuration lines
+2025-07-14 13:22:35,614 - INFO - Applying 1 configuration commands
+2025-07-14 13:22:35,614 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:22:37,128 - INFO - Starting SONiC CLI session
+2025-07-14 13:22:39,129 - INFO - Entering configuration mode
+2025-07-14 13:22:40,130 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:22:40,631 - INFO - Exiting configuration mode
+2025-07-14 13:22:41,632 - INFO - Saving configuration to memory
+2025-07-14 13:22:43,633 - INFO - Configuration saved successfully
+2025-07-14 13:22:44,634 - INFO - Configuration file ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt.new.txt.new.txt applied successfully
+2025-07-14 13:22:44,634 - INFO - All configuration files applied successfully to esw020046!
+2025-07-14 13:22:44,644 - INFO - Disconnected from switch
+2025-07-14 13:22:44,644 - INFO - 
+============================================================
+2025-07-14 13:22:44,644 - INFO - Processing switch: esw020047
+2025-07-14 13:22:44,644 - INFO - Configuration files: 1
+2025-07-14 13:22:44,644 - INFO - ============================================================
+2025-07-14 13:22:44,644 - INFO - Connecting to esw020047:22
+2025-07-14 13:22:44,765 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:22:45,109 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:22:45,110 - INFO - Authentication (password) successful!
+2025-07-14 13:22:45,110 - INFO - Successfully connected to switch
+2025-07-14 13:22:45,111 - INFO - Applying configuration from 1 file(s) to esw020047
+2025-07-14 13:22:45,111 - INFO - Processing file 1/1: ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:45,111 - INFO - Reading configuration from ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:45,111 - INFO - Found 1 configuration lines
+2025-07-14 13:22:45,111 - INFO - Applying 1 configuration commands
+2025-07-14 13:22:45,111 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:22:46,622 - INFO - Starting SONiC CLI session
+2025-07-14 13:22:48,623 - INFO - Entering configuration mode
+2025-07-14 13:22:49,624 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:22:50,125 - INFO - Exiting configuration mode
+2025-07-14 13:22:51,126 - INFO - Saving configuration to memory
+2025-07-14 13:22:53,127 - INFO - Configuration saved successfully
+2025-07-14 13:22:54,128 - INFO - Configuration file ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020047_acl.txt.new.txt.new.txt.new.txt applied successfully
+2025-07-14 13:22:54,128 - INFO - All configuration files applied successfully to esw020047!
+2025-07-14 13:22:54,128 - INFO - Disconnected from switch
+2025-07-14 13:22:54,129 - INFO - 
+============================================================
+2025-07-14 13:22:54,129 - INFO - Processing switch: esw020048
+2025-07-14 13:22:54,129 - INFO - Configuration files: 1
+2025-07-14 13:22:54,129 - INFO - ============================================================
+2025-07-14 13:22:54,129 - INFO - Connecting to esw020048:22
+2025-07-14 13:22:54,254 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:22:54,619 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:22:54,619 - INFO - Authentication (password) successful!
+2025-07-14 13:22:54,620 - INFO - Successfully connected to switch
+2025-07-14 13:22:54,620 - INFO - Applying configuration from 1 file(s) to esw020048
+2025-07-14 13:22:54,620 - INFO - Processing file 1/1: ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:54,621 - INFO - Reading configuration from ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt
+2025-07-14 13:22:54,621 - INFO - Found 1 configuration lines
+2025-07-14 13:22:54,621 - INFO - Applying 1 configuration commands
+2025-07-14 13:22:54,621 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:22:56,135 - INFO - Starting SONiC CLI session
+2025-07-14 13:22:58,136 - INFO - Entering configuration mode
+2025-07-14 13:22:59,137 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:22:59,638 - INFO - Exiting configuration mode
+2025-07-14 13:23:00,638 - INFO - Saving configuration to memory
+2025-07-14 13:23:02,639 - INFO - Configuration saved successfully
+2025-07-14 13:23:03,640 - INFO - Configuration file ../acl_generator/output/1870_sea1/Fireworks_sea1_esw020048_acl.txt.new.txt.new.txt.new.txt applied successfully
+2025-07-14 13:23:03,641 - INFO - All configuration files applied successfully to esw020048!
+2025-07-14 13:23:03,641 - INFO - Disconnected from switch
+2025-07-14 13:23:03,641 - INFO - 
+============================================================
+2025-07-14 13:23:03,641 - INFO - CONFIGURATION SUMMARY
+2025-07-14 13:23:03,641 - INFO - ============================================================
+2025-07-14 13:23:03,641 - INFO - ✓ esw020033: SUCCESS (1 files processed)
+2025-07-14 13:23:03,641 - INFO - ✓ esw020034: SUCCESS (1 files processed)
+2025-07-14 13:23:03,641 - INFO - ✓ esw020035: SUCCESS (1 files processed)
+2025-07-14 13:23:03,641 - INFO - ✓ esw020036: SUCCESS (1 files processed)
+2025-07-14 13:23:03,641 - INFO - ✓ esw020045: SUCCESS (1 files processed)
+2025-07-14 13:23:03,641 - INFO - ✓ esw020046: SUCCESS (1 files processed)
+2025-07-14 13:23:03,641 - INFO - ✓ esw020047: SUCCESS (1 files processed)
+2025-07-14 13:23:03,642 - INFO - ✓ esw020048: SUCCESS (1 files processed)
+2025-07-14 13:23:03,642 - INFO - 
+Successful: 8/8
+2025-07-14 13:23:03,642 - INFO - Failed: 0/8
+2025-07-14 13:23:03,642 - INFO - All switches configured successfully!
+2025-07-14 13:30:47,666 - INFO - Found 6 configuration files in directory: ../acl_generator/output/2614_sea1/
+2025-07-14 13:30:47,666 - INFO - Found SW switch name: esw020045
+2025-07-14 13:30:47,666 - INFO - Found SW switch name: esw020046
+2025-07-14 13:30:47,666 - WARNING - No SW switch name pattern found in filename '../acl_generator/output/2614_sea1/Fireworks_sea1_paloalto_config.txt'
+2025-07-14 13:30:47,666 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-14 13:30:47,666 - WARNING - No SW switch name pattern found in filename '../acl_generator/output/2614_sea1/Fireworks_sea1_paloalto_config.txt.new.txt'
+2025-07-14 13:30:47,666 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-14 13:30:47,666 - WARNING - No SW switch name pattern found in filename '../acl_generator/output/2614_sea1/net-2614-sea1-Fireworks-acls.txt'
+2025-07-14 13:30:47,666 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-14 13:30:47,666 - WARNING - No SW switch name pattern found in filename '../acl_generator/output/2614_sea1/net-2614-sea1-Fireworks-acls.txt.new.txt'
+2025-07-14 13:30:47,666 - WARNING - Expected pattern: sw + up to 8 digits (e.g., esw123, esw12345678)
+2025-07-14 13:30:47,666 - INFO - Found configuration files for 6 switches:
+2025-07-14 13:30:47,666 - INFO -   esw020045: 1 file(s)
+2025-07-14 13:30:47,666 - INFO -     - ../acl_generator/output/2614_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt
+2025-07-14 13:30:47,666 - INFO -   esw020046: 1 file(s)
+2025-07-14 13:30:47,666 - INFO -     - ../acl_generator/output/2614_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt
+2025-07-14 13:30:47,666 - INFO -   Fireworks_sea1_paloalto_config: 1 file(s)
+2025-07-14 13:30:47,666 - INFO -     - ../acl_generator/output/2614_sea1/Fireworks_sea1_paloalto_config.txt
+2025-07-14 13:30:47,666 - INFO -   Fireworks_sea1_paloalto_config.txt.new: 1 file(s)
+2025-07-14 13:30:47,666 - INFO -     - ../acl_generator/output/2614_sea1/Fireworks_sea1_paloalto_config.txt.new.txt
+2025-07-14 13:30:47,666 - INFO -   net-2614-sea1-Fireworks-acls: 1 file(s)
+2025-07-14 13:30:47,666 - INFO -     - ../acl_generator/output/2614_sea1/net-2614-sea1-Fireworks-acls.txt
+2025-07-14 13:30:47,666 - INFO -   net-2614-sea1-Fireworks-acls.txt.new: 1 file(s)
+2025-07-14 13:30:47,666 - INFO -     - ../acl_generator/output/2614_sea1/net-2614-sea1-Fireworks-acls.txt.new.txt
+2025-07-14 13:31:25,476 - INFO - 
+============================================================
+2025-07-14 13:31:25,476 - INFO - Processing switch: esw020045
+2025-07-14 13:31:25,476 - INFO - Configuration files: 1
+2025-07-14 13:31:25,477 - INFO - ============================================================
+2025-07-14 13:31:25,477 - INFO - Connecting to esw020045:22
+2025-07-14 13:31:25,623 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:31:25,965 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:31:25,966 - INFO - Authentication (password) successful!
+2025-07-14 13:31:25,966 - INFO - Successfully connected to switch
+2025-07-14 13:31:25,966 - INFO - Applying configuration from 1 file(s) to esw020045
+2025-07-14 13:31:25,967 - INFO - Processing file 1/1: ../acl_generator/output/2614_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt
+2025-07-14 13:31:25,967 - INFO - Reading configuration from ../acl_generator/output/2614_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt
+2025-07-14 13:31:25,967 - INFO - Found 1 configuration lines
+2025-07-14 13:31:25,967 - INFO - Applying 1 configuration commands
+2025-07-14 13:31:25,967 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:31:27,478 - INFO - Starting SONiC CLI session
+2025-07-14 13:31:29,479 - INFO - Entering configuration mode
+2025-07-14 13:31:30,480 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:31:30,981 - INFO - Exiting configuration mode
+2025-07-14 13:31:31,982 - INFO - Saving configuration to memory
+2025-07-14 13:31:33,983 - INFO - Configuration saved successfully
+2025-07-14 13:31:34,985 - INFO - Configuration file ../acl_generator/output/2614_sea1/Fireworks_sea1_esw020045_acl.txt.new.txt applied successfully
+2025-07-14 13:31:34,985 - INFO - All configuration files applied successfully to esw020045!
+2025-07-14 13:31:34,985 - INFO - Disconnected from switch
+2025-07-14 13:31:34,985 - INFO - 
+============================================================
+2025-07-14 13:31:34,985 - INFO - Processing switch: esw020046
+2025-07-14 13:31:34,985 - INFO - Configuration files: 1
+2025-07-14 13:31:34,985 - INFO - ============================================================
+2025-07-14 13:31:34,985 - INFO - Connecting to esw020046:22
+2025-07-14 13:31:35,103 - INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+2025-07-14 13:31:35,793 - INFO - Auth banner: b'Debian GNU/Linux 11\n'
+2025-07-14 13:31:35,794 - INFO - Authentication (password) successful!
+2025-07-14 13:31:35,794 - INFO - Successfully connected to switch
+2025-07-14 13:31:35,794 - INFO - Applying configuration from 1 file(s) to esw020046
+2025-07-14 13:31:35,794 - INFO - Processing file 1/1: ../acl_generator/output/2614_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt
+2025-07-14 13:31:35,795 - INFO - Reading configuration from ../acl_generator/output/2614_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt
+2025-07-14 13:31:35,795 - INFO - Found 1 configuration lines
+2025-07-14 13:31:35,795 - INFO - Applying 1 configuration commands
+2025-07-14 13:31:35,795 - INFO - Attempting to use interactive SONiC CLI session
+2025-07-14 13:31:37,308 - INFO - Starting SONiC CLI session
+2025-07-14 13:31:39,309 - INFO - Entering configuration mode
+2025-07-14 13:31:40,311 - INFO - [1/1] Executing: no ip access-list Fireworks_acl_in
+2025-07-14 13:31:40,812 - INFO - Exiting configuration mode
+2025-07-14 13:31:41,813 - INFO - Saving configuration to memory
+2025-07-14 13:31:43,814 - INFO - Configuration saved successfully
+2025-07-14 13:31:44,815 - INFO - Configuration file ../acl_generator/output/2614_sea1/Fireworks_sea1_esw020046_acl.txt.new.txt applied successfully
+2025-07-14 13:31:44,815 - INFO - All configuration files applied successfully to esw020046!
+2025-07-14 13:31:44,816 - INFO - Disconnected from switch
+2025-07-14 13:31:44,816 - INFO - 
+============================================================
+2025-07-14 13:31:44,816 - INFO - Processing switch: Fireworks_sea1_paloalto_config
+2025-07-14 13:31:44,816 - INFO - Configuration files: 1
+2025-07-14 13:31:44,816 - INFO - ============================================================
+2025-07-14 13:31:44,816 - INFO - Connecting to Fireworks_sea1_paloalto_config:22
+2025-07-14 13:31:44,984 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:31:44,984 - ERROR - Failed to connect to switch Fireworks_sea1_paloalto_config
+2025-07-14 13:31:44,984 - INFO - Disconnected from switch
+2025-07-14 13:31:44,984 - INFO - 
+============================================================
+2025-07-14 13:31:44,984 - INFO - Processing switch: Fireworks_sea1_paloalto_config.txt.new
+2025-07-14 13:31:44,984 - INFO - Configuration files: 1
+2025-07-14 13:31:44,984 - INFO - ============================================================
+2025-07-14 13:31:44,984 - INFO - Connecting to Fireworks_sea1_paloalto_config.txt.new:22
+2025-07-14 13:31:45,474 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:31:45,475 - ERROR - Failed to connect to switch Fireworks_sea1_paloalto_config.txt.new
+2025-07-14 13:31:45,475 - INFO - Disconnected from switch
+2025-07-14 13:31:45,475 - INFO - 
+============================================================
+2025-07-14 13:31:45,475 - INFO - Processing switch: net-2614-sea1-Fireworks-acls
+2025-07-14 13:31:45,475 - INFO - Configuration files: 1
+2025-07-14 13:31:45,475 - INFO - ============================================================
+2025-07-14 13:31:45,475 - INFO - Connecting to net-2614-sea1-Fireworks-acls:22
+2025-07-14 13:31:45,644 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:31:45,644 - ERROR - Failed to connect to switch net-2614-sea1-Fireworks-acls
+2025-07-14 13:31:45,644 - INFO - Disconnected from switch
+2025-07-14 13:31:45,644 - INFO - 
+============================================================
+2025-07-14 13:31:45,644 - INFO - Processing switch: net-2614-sea1-Fireworks-acls.txt.new
+2025-07-14 13:31:45,644 - INFO - Configuration files: 1
+2025-07-14 13:31:45,644 - INFO - ============================================================
+2025-07-14 13:31:45,645 - INFO - Connecting to net-2614-sea1-Fireworks-acls.txt.new:22
+2025-07-14 13:31:45,798 - ERROR - Connection error: [Errno -2] Name or service not known
+2025-07-14 13:31:45,798 - ERROR - Failed to connect to switch net-2614-sea1-Fireworks-acls.txt.new
+2025-07-14 13:31:45,798 - INFO - Disconnected from switch
+2025-07-14 13:31:45,798 - INFO - 
+============================================================
+2025-07-14 13:31:45,798 - INFO - CONFIGURATION SUMMARY
+2025-07-14 13:31:45,798 - INFO - ============================================================
+2025-07-14 13:31:45,799 - INFO - ✓ esw020045: SUCCESS (1 files processed)
+2025-07-14 13:31:45,799 - INFO - ✓ esw020046: SUCCESS (1 files processed)
+2025-07-14 13:31:45,799 - ERROR - ✗ Fireworks_sea1_paloalto_config: FAILED - Connection failed
+2025-07-14 13:31:45,799 - ERROR - ✗ Fireworks_sea1_paloalto_config.txt.new: FAILED - Connection failed
+2025-07-14 13:31:45,799 - ERROR - ✗ net-2614-sea1-Fireworks-acls: FAILED - Connection failed
+2025-07-14 13:31:45,799 - ERROR - ✗ net-2614-sea1-Fireworks-acls.txt.new: FAILED - Connection failed
+2025-07-14 13:31:45,799 - INFO - 
+Successful: 2/6
+2025-07-14 13:31:45,799 - INFO - Failed: 4/6
+2025-07-14 13:31:45,799 - ERROR - Some switches failed configuration. Check logs above for details.
