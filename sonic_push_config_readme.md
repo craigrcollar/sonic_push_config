@@ -27,6 +27,7 @@ pip install paramiko
 - SSH access to target SONiC switches
 - Network connectivity to switches
 - Valid credentials with configuration privileges
+- the host file in this directory must be appended to your /etc/hosts to allow correct name resolution
 
 ## Installation
 
