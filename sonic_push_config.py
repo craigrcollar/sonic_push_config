@@ -18,6 +18,7 @@ import sys
 import re
 import time
 import getpass
+import socket
 from pathlib import Path
 import paramiko
 from paramiko import SSHClient, AutoAddPolicy
@@ -33,6 +34,119 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
+def resolve_hostname(hostname, hosts_file='hosts.txt'):
+    """
+    Resolve hostname to IP address using hosts.txt file first, then system resolver
+    
+    Args:
+        hostname (str): The hostname to resolve
+        hosts_file (str): Path to the hosts file (default: 'hosts.txt')
+    
+    Returns:
+        str: IP address if resolved, original hostname if resolution fails
+    """
+    # First try to resolve using hosts.txt file
+    if os.path.exists(hosts_file):
+        try:
+            with open(hosts_file, 'r') as f:
+                for line_num, line in enumerate(f, 1):
+                    line = line.strip()
+                    
+                    # Skip empty lines and comments
+                    if not line or line.startswith('#'):
+                        continue
+                    
+                    # Parse line format: IP_ADDRESS HOSTNAME [ALIAS1] [ALIAS2] ...
+                    parts = line.split()
+                    if len(parts) < 2:
+                        continue
+                    
+                    ip_address = parts[0]
+                    hostnames = parts[1:]  # All remaining parts are hostnames/aliases
+                    
+                    # Check if our hostname matches any of the hostnames/aliases
+                    if hostname.lower() in [h.lower() for h in hostnames]:
+                        logger.info(f"Resolved {hostname} to {ip_address} via hosts.txt")
+                        return ip_address
+                        
+        except Exception as e:
+            logger.warning(f"Error reading hosts file '{hosts_file}': {e}")
+    else:
+        logger.debug(f"Hosts file '{hosts_file}' not found, will use system resolver")
+    
+    # If not found in hosts.txt, try system resolver
+    try:
+        ip_address = socket.gethostbyname(hostname)
+        if ip_address != hostname:  # If resolution was successful
+            logger.info(f"Resolved {hostname} to {ip_address} via system resolver")
+            return ip_address
+    except socket.gaierror as e:
+        logger.warning(f"Could not resolve hostname '{hostname}' via system resolver: {e}")
+    except Exception as e:
+        logger.warning(f"Unexpected error resolving hostname '{hostname}': {e}")
+    
+    # If all resolution methods fail, return original hostname
+    logger.warning(f"Using original hostname '{hostname}' as IP resolution failed")
+    return hostname
+
+def validate_hosts_file(hosts_file='hosts.txt'):
+    """
+    Validate the hosts.txt file format and log any issues
+    
+    Args:
+        hosts_file (str): Path to the hosts file
+    
+    Returns:
+        bool: True if file is valid or doesn't exist, False if format issues found
+    """
+    if not os.path.exists(hosts_file):
+        logger.info(f"Hosts file '{hosts_file}' not found - system resolver will be used")
+        return True
+    
+    valid = True
+    
+    try:
+        with open(hosts_file, 'r') as f:
+            for line_num, line in enumerate(f, 1):
+                line = line.strip()
+                
+                # Skip empty lines and comments
+                if not line or line.startswith('#'):
+                    continue
+                
+                parts = line.split()
+                if len(parts) < 2:
+                    logger.warning(f"hosts.txt line {line_num}: Invalid format - need at least IP and hostname")
+                    valid = False
+                    continue
+                
+                ip_address = parts[0]
+                
+                # Basic IP address validation
+                try:
+                    socket.inet_aton(ip_address)  # Check if valid IPv4
+                except socket.error:
+                    try:
+                        socket.inet_pton(socket.AF_INET6, ip_address)  # Check if valid IPv6
+                    except socket.error:
+                        logger.warning(f"hosts.txt line {line_num}: Invalid IP address '{ip_address}'")
+                        valid = False
+                        continue
+                
+                hostnames = parts[1:]
+                logger.debug(f"hosts.txt entry: {ip_address} -> {', '.join(hostnames)}")
+    
+    except Exception as e:
+        logger.error(f"Error validating hosts file '{hosts_file}': {e}")
+        return False
+    
+    if valid:
+        logger.info(f"Hosts file '{hosts_file}' validated successfully")
+    else:
+        logger.warning(f"Hosts file '{hosts_file}' has format issues but will continue")
+    
+    return valid
 
 def extract_hostname_from_filename(filename):
     """Extract hostname from configuration filename - specifically looking for sw + up to 8 digits"""
@@ -58,8 +172,10 @@ def extract_hostname_from_filename(filename):
 class SONiCConfigApplier:
     """Class to handle SONiC switch configuration application"""
     
-    def __init__(self, hostname, username, password, port=22, timeout=30):
+    def __init__(self, hostname, username, password, port=22, timeout=30, hosts_file='hosts.txt'):
         self.hostname = hostname
+        # Resolve hostname to IP address
+        self.ip_address = resolve_hostname(hostname, hosts_file)
         self.username = username
         self.password = password
         self.port = port
@@ -72,9 +188,9 @@ class SONiCConfigApplier:
             self.ssh_client = SSHClient()
             self.ssh_client.set_missing_host_key_policy(AutoAddPolicy())
             
-            logger.info(f"Connecting to {self.hostname}:{self.port}")
+            logger.info(f"Connecting to {self.hostname} ({self.ip_address}):{self.port}")
             self.ssh_client.connect(
-                hostname=self.hostname,
+                hostname=self.ip_address,  # Use resolved IP address
                 port=self.port,
                 username=self.username,
                 password=self.password,
@@ -379,6 +495,7 @@ Examples:
   python sonic_push_config.py configs/
   python sonic_push_config.py /path/to/configs/ --hostname esw456
   python sonic_push_config.py switch_configs/ --backup
+  python sonic_push_config.py esw123.txt --hosts-file /path/to/custom_hosts.txt
         '''
     )
     
@@ -393,8 +510,25 @@ Examples:
                        help='Create backup of current configuration')
     parser.add_argument('--dry-run', action='store_true',
                        help='Show what would be done without applying changes')
+    parser.add_argument('--hosts-file', default='hosts.txt',
+                       help='Path to hosts file for hostname resolution (default: hosts.txt)')
+    parser.add_argument('--validate-hosts', action='store_true',
+                       help='Validate hosts file format and exit')
     
     args = parser.parse_args()
+    
+    # Validate hosts file if requested
+    if args.validate_hosts:
+        logger.info(f"Validating hosts file: {args.hosts_file}")
+        if validate_hosts_file(args.hosts_file):
+            logger.info("Hosts file validation passed")
+            sys.exit(0)
+        else:
+            logger.error("Hosts file validation failed")
+            sys.exit(1)
+    
+    # Validate hosts file format
+    validate_hosts_file(args.hosts_file)
     
     # Validate config path exists
     if not os.path.exists(args.config_path):
@@ -412,7 +546,10 @@ Examples:
     
     logger.info(f"Found configuration files for {len(switch_configs)} switches:")
     for hostname, files in switch_configs.items():
-        logger.info(f"  {hostname}: {len(files)} file(s)")
+        # Show resolved IP for each hostname
+        resolved_ip = resolve_hostname(hostname, args.hosts_file)
+        ip_info = f" -> {resolved_ip}" if resolved_ip != hostname else ""
+        logger.info(f"  {hostname}{ip_info}: {len(files)} file(s)")
         for file in files:
             logger.info(f"    - {file}")
     
@@ -443,7 +580,9 @@ Examples:
         
         total_commands = 0
         for hostname, target_files in target_switches.items():
-            logger.info(f"\nSwitch: {hostname}")
+            resolved_ip = resolve_hostname(hostname, args.hosts_file)
+            ip_info = f" ({resolved_ip})" if resolved_ip != hostname else ""
+            logger.info(f"\nSwitch: {hostname}{ip_info}")
             logger.info(f"Configuration files: {len(target_files)}")
             
             switch_commands = []
@@ -482,7 +621,7 @@ Examples:
         logger.info(f"{'='*60}")
         
         # Create configuration applier for this switch
-        applier = SONiCConfigApplier(hostname, username, password, args.port, args.timeout)
+        applier = SONiCConfigApplier(hostname, username, password, args.port, args.timeout, args.hosts_file)
         
         try:
             # Connect to switch
