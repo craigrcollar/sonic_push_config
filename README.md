@@ -113,6 +113,7 @@ The script automatically extracts switch hostnames from configuration filenames 
 | `--timeout` | SSH connection timeout (seconds) | `30` |
 | `--backup` | Create configuration backup | `False` |
 | `--dry-run` | Preview changes without applying | `False` |
+| `--hosts-file` | Specify HOSTS_FILE for hostname resolution | `False` |
 
 ## Configuration File Format
 
