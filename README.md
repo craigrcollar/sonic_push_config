@@ -12,6 +12,7 @@ A Python script for applying configuration files to Dell SONiC switches via SSH.
 - **Comprehensive logging** to both file and console
 - **Error handling** with detailed reporting of failed commands
 - **Secure password input** using getpass for enhanced security
+- **By default, queries the local hosts.txt file for hostname resolution. You may also pass another host file to the command line, or if none of these files exist, the script will use the standard system resolver. 
 
 ## Requirements
 
@@ -27,7 +28,6 @@ pip install paramiko
 - SSH access to target SONiC switches
 - Network connectivity to switches
 - Valid credentials with configuration privileges
-- the host file in this directory must be appended to your /etc/hosts to allow correct name resolution
 
 ## Installation
 
